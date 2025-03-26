@@ -32,7 +32,7 @@ download_model()
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Configure Gemini API (Load key from environment variable)
-api_key = os.getenv("AIzaSyAr1ig6SsFuUANHMd_afkgkFw1s8pHZ09s")
+api_key = os.getenv("")
 if not api_key:
     st.error("API key is missing. Set the GEMINI_API_KEY environment variable.")
     gen_model = None

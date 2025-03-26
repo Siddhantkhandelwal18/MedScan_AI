@@ -5,3 +5,4 @@ numpy==1.23.5
 Pillow==9.2.0
 h5py==3.7.0
 google-generativeai==0.3.0
+protobuf==3.20.*
